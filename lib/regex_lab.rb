@@ -33,5 +33,5 @@ invalid_numbers = ["28894546", "(718)891-13135", "234 43 9978", "(800)IloveNY"]
   else
     return FALSE
    end
-  #|| phone.match(/\d{3}\s\d{3}\s\d{4}/) || phone.match(/\(\d{3}\)[\da-zA-Z]{3}][\s-][\da-zA-Z{4}]\)
+  #||  phone.match(/\(\d{3}\)[\da-zA-Z]{3}][\s-][\da-zA-Z{4}]\)
 end
